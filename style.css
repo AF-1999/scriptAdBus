@@ -1,6 +1,5 @@
 body{
     background-color: #7cfad0;
-    max-width:1170px;
     padding: 0 15px;
     display: flex;
     justify-content: center;
@@ -9,7 +8,7 @@ body{
 .form {
     display: flex;
     width: 376px;
-    height: 400px;
+    height: 570px;
     justify-content: center;
     flex-wrap: wrap;
     margin: 15px;
@@ -27,6 +26,7 @@ input{
 img{
     width: 70%;
     height: 40%;
+    border-radius: 10%;
 }
 
 #gosNumber1{
