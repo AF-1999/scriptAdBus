@@ -1,4 +1,4 @@
-"use strickt"
+
 
 let arrGosNumber = [ 
     "647ЕН",
@@ -571,7 +571,9 @@ let saveNumber = document.getElementById('saveNumber');
 
 checkForm.onclick = function(){
 
-    if(arrGosNumber.includes(gosNumber1.value) || arrNumber.includes(gosNumber1.value))
+    gosNumber1.value.toUpperCase();
+
+    if(arrGosNumber.includes(gosNumber1.value.toUpperCase()) || arrNumber.includes(gosNumber1.value))
         alert("есть");
     else 
         alert("нету");
