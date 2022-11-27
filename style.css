@@ -16,6 +16,7 @@ body{
     max-width: 2530px;
     width: 100%;
     height: 100vh;
+    min-height: 900px;
     background-image: url("nvkz-img.jpg");
     background-repeat: no-repeat;
     background-position: top center;
@@ -55,9 +56,10 @@ img{
 
 #gosNumber1{
     border-radius: 10%;
-    border-color: #7cfad0;
+    border-color: #7c7a7a;
     text-align: center;
     font-size: 26px;
+    background-color: #7c7a7a;
 }
 
 #checkForm{
