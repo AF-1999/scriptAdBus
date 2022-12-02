@@ -496,6 +496,42 @@ let busVisited = [
     "812оа", "4924",
     "921ет", "4700",
     "873су", "5911",
+    "670ен", "4686",
+    "714ке", "4875",
+    "733км", "4835",
+    "4842", "686ех",
+    "4847", "756км",
+    "4726", "853нм",
+    "910мв", "4882",
+    "954оу", "4943",
+    "4991", "830ок",
+    "4852", "813кк",
+    "4694", "913ет",
+    "4817", "643ен",
+    "4872", "673км",
+    "732ав", "4665",
+    "4806", "624ок",
+    "4863", "702км",
+    "5912",
+    "4708", "896ет",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
+    "", "",
     "", "",
     "", "",
     "", "",
@@ -513,10 +549,10 @@ let checkForm = document.getElementById('checkForm');
 
 checkForm.onclick = function(){
 
-    if(arrGosNumber.includes(gosNumber1.value.toUpperCase()) || arrNumber.includes(gosNumber1.value))
-        alert("есть");
-    else if(busVisited.includes(gosNumber1.value))
+    if(busVisited.includes(gosNumber1.value))
         alert("было");
+    else if(arrGosNumber.includes(gosNumber1.value.toUpperCase()) || arrNumber.includes(gosNumber1.value))
+        alert("есть");
     else 
         alert("нету");
 };
