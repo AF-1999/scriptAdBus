@@ -549,8 +549,24 @@ let busVisited = [
     "816ет", "4687",
     "5917",
     "4805", "905ем",
+    "4865", "741кк",
+    "", "",  
     "", "",
-    "", ""    
+    "", "", 
+    "", "",
+    "", "", 
+    "", "",
+    "", "", 
+    "", "",
+    "", "", 
+    "", "",
+    "", "", 
+    "", "",
+    "", "",   
+    "", "",
+    "", "", 
+    "", "",
+    "", "", 
 ]
 let gosNumber1 = document.getElementById('gosNumber1');
 let checkForm = document.getElementById('checkForm');
