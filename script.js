@@ -563,18 +563,45 @@ let busVisited = [
     "994кс", "", 
     "4706", "",
     "4786", "",   
-    "", "",
-    "", "", 
-    "", "",
-    "", "", 
-]
+    "5941", "",
+    "4921", "", 
+    "4688", "",
+    "4871", "",
+    "4946",
+    "4818",
+    "5916", 
+    "",
+    "",
+    "", 
+    "",
+    "",
+    "", 
+    "",
+    "",
+    "", 
+    "",
+    "",
+    "", 
+];
+let busVisitedNew = [
+    "4738",
+    "4774", 
+    "4805",
+    "4875",
+    "", 
+    "",
+    "",
+    "", 
+];
 let gosNumber1 = document.getElementById('gosNumber1');
 let checkForm = document.getElementById('checkForm');
 
 checkForm.onclick = function(){
 
-    if(busVisited.includes(gosNumber1.value))
+    if(busVisitedNew.includes(gosNumber1.value))
         alert("было");
+    else if(busVisited.includes(gosNumber1.value))
+        alert("было раньше");
     else if(arrGosNumber.includes(gosNumber1.value.toUpperCase()) || arrNumber.includes(gosNumber1.value))
         alert("есть");
     else 
