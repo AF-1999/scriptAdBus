@@ -737,7 +737,7 @@ let busVisitedNew = [
     "", 
 ];
 
-let betterBusVisitedNew = [
+let reworkingBusVisitedNew = [
     "3189",
     "3190",
     "3191",
@@ -932,12 +932,53 @@ let betterBusVisitedNew = [
 
 ];
 
+let betterBusVisitedNew = [
+    "4712",
+    "4822",
+    "4689",
+    "3190",
+    "5926",
+    "4779",
+    "5913",
+    "4667",
+    "4734",
+    "4769",
+    "5928",
+    "4895",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+];
+
+
 let gosNumber1 = document.getElementById('gosNumber1');
 let checkForm = document.getElementById('checkForm');
 
 checkForm.onclick = function(){
 
     if(betterBusVisitedNew.includes(gosNumber1.value))
+        alert("Ля, ну это уже точно сфотано, мать его!");
+    else if(reworkingBusVisitedNew.includes(gosNumber1.value))
         alert("Переснять, йобаный в рот");
     else if(busVisitedNew.includes(gosNumber1.value))
         alert("было");
